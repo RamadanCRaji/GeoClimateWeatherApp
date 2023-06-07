@@ -1,0 +1,157 @@
+/******************************************
+/* CSS
+/*******************************************/
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+* {
+  scrollbar-color: transparent transparent;
+  /* thumb and track color */
+  scrollbar-width: 0px;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: "Yeseva one";
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+/* Clear fix hack */
+.group:before,
+.group:after {
+  content: "";
+  display: table;
+}
+
+.group:after {
+  clear: both;
+}
+
+.group {
+  clear: both;
+  *zoom: 1;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+/* 
+============
+body
+============
+ */
+body {
+  background: #222;
+
+}
+
+.card {
+  /* outline: 5px solid red; */
+  width: 90%;
+  max-width: 47rem;
+  background: linear-gradient(135deg, #00feba, #5b548a);
+  color: #fff;
+  margin: 10rem auto 0rem;
+  border-radius: 20px;
+  padding: 4rem 3.5rem;
+  text-align: center;
+}
+
+.search {
+  /* outline: 2px solid green; */
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+
+}
+
+.search input {
+  border: 0;
+  outline: 0;
+  background: #ebfffc;
+  flex: 1;
+  color: #555;
+  padding: 0 2.5rem;
+  height: 6rem;
+  border-radius: 3rem;
+  font-size: 1.8rem;
+  margin-right: 1.6rem;
+}
+
+.search button {
+  /* border: 1px solid red; */
+  border: 0;
+  outline: 0;
+  background: #ebfffc;
+  border-radius: 50%;
+  width: 6rem;
+  height: 6rem;
+  cursor: pointer;
+}
+
+.search button>i {
+  font-size: 1.8rem;
+}
+
+.weather {
+  display: none;
+}
+
+.weather-icon {
+  /* border: 1px solid black; */
+  width: 17rem;
+  margin-top: 3rem;
+}
+
+.weather>h1 {
+  font-size: 8rem;
+  font-weight: 500;
+  /* border: 1px solid black; */
+
+}
+
+.weather>h2 {
+  font-size: 4.5rem;
+  font-weight: 400;
+  /* border: 1px solid black; */
+  margin-top: -1rem;
+
+}
+
+.details {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 2rem;
+  margin-top: 5rem;
+}
+
+.col {
+  /* border: 1px solid blue; */
+  display: flex;
+  align-items: center;
+  text-align: left;
+}
+
+.col img {
+  width: 4rem;
+  margin: 0 1rem 0 0;
+}
+
+.humidity,
+.wind {
+  font-size: 2.8rem;
+  margin-top: -.6rem;
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
