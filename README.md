@@ -1,5 +1,5 @@
 # 🌦 Project: GeoClimateWeatherApp
-This project is a simple, yet effective, weather application. By entering a city name, users can retrieve real-time weather data including temperature, humidity, wind speed, and current weather conditions. See it live here (replace this with your actual project link).
+This project is a simple, yet effective, weather application. By entering a city name, users can retrieve real-time weather data including temperature, humidity, wind speed, and current weather conditions. See it [live here](https://ramadancraji.github.io/GeoClimateWeatherApp/).
 
 Screenshot Here (insert screenshot image here)
 
